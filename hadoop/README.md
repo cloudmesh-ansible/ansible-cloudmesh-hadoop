@@ -1,7 +1,15 @@
-hadoop
+hadoop installation
 =========
 
-This role is responsible for installing hadoop.
+This role performs the following tasks::
+
+   1. downloads the hadoop 2.71 archive
+   2. ensures that the archive is sent to to the proper directory
+   3. unpacks the archive
+   4. creates a symlink shortcut
+   5. sets permissions and the group of the directory to root
+   6. Creates a directory for yarn logs
+   7. sets environment exports
 
 Requirements
 ------------
