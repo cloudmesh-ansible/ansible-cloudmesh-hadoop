@@ -1,5 +1,5 @@
 galaxy_info:
-  author: your name
+  author: Hagen Hodgkins
   description: your description
   company: your company (optional)
 
@@ -158,7 +158,9 @@ galaxy_info:
   #  - stretch
   #  - wheezy
 
-  galaxy_tags: []
+  galaxy_tags:
+  - hadoop
+  - installer
     # List tags for your role here, one per line. A tag is
     # a keyword that describes and categorizes the role.
     # Users find roles by searching for tags. Be sure to
